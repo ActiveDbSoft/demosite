@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<polygon fill="#FFFFFF" points="6.242,10.707 3.414,13.535 2,13.535 5.535,10 			"/>
+		</g>
+		<polygon opacity="0.22" fill="#FFFFFF" points="4.379,7.344 5.086,6.637 6.5,6.637 7,5 7,3 10,4 12,6 12,8 11.449,8.758 
+			8.621,8.758 8.621,10.172 7.914,10.879 		"/>
+	</g>
+	
+		<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1.1767 8.9561)" fill="#FFFFFF" cx="10.223" cy="5.898" rx="1.389" ry="3.621"/>
+	<rect x="6" y="4" fill="#FFFFFF" width="1" height="3"/>
+	<polygon fill="#FFFFFF" points="4,7 6,7 6,6 5,6 	"/>
+	<rect x="4" y="7" fill="#FFFFFF" width="1" height="2"/>
+	<rect x="9" y="9" fill="#FFFFFF" width="3" height="1"/>
+	<polygon fill="#FFFFFF" points="10,11 9,12 9,10 10,10 	"/>
+	<rect x="7" y="11" fill="#FFFFFF" width="2" height="1"/>
+	<polygon fill="#FFFFFF" points="5,10 6,10 6,9 4,9 	"/>
+	<polygon fill="#FFFFFF" points="7,11 7,10 6,10 6,12 	"/>
+	<rect x="7" y="3" fill="#FFFFFF" width="1" height="1"/>
+	<rect x="12" y="8" fill="#FFFFFF" width="1" height="1"/>
+</g>
+</svg>

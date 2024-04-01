@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#BCBCBC" d="M1,13.5c-0.276,0-0.5-0.225-0.5-0.5V1c0-0.275,0.224-0.5,0.5-0.5h12c0.275,0,0.5,0.225,0.5,0.5v12
+			c0,0.275-0.225,0.5-0.5,0.5H1z"/>
+		<polygon fill="#DDDDDD" points="2.5,13.5 2.5,6.5 13,6.5 11.5,13.5 		"/>
+		<g>
+			<rect x="3.5" y="0.5" fill="#DDDDDD" width="7" height="4"/>
+			<path fill="#7D7D7D" d="M10,1v3H4V1H10 M11,0H3v5h8V0L11,0z"/>
+		</g>
+		<rect x="7" y="1" fill="#7D7D7D" width="2" height="2"/>
+	</g>
+	<rect x="7" y="10" opacity="0.69" fill="#DDDDDD" width="9" height="4"/>
+	<rect x="4" y="8" fill="#BCBCBC" width="6" height="1"/>
+	<rect x="4" y="10" fill="#BCBCBC" width="6" height="1"/>
+	<g>
+		<g>
+			<path fill="#7D7D7D" d="M1,13V1h12v4l1,3V1c0-0.55-0.45-1-1-1H1C0.45,0,0,0.45,0,1v12c0,0.55,0.45,1,1,1h5v-1H1z"/>
+			<polygon fill="#7D7D7D" points="9,13.972 6,14 9,14 			"/>
+		</g>
+		<g>
+			<polygon fill="#7D7D7D" points="9,13.972 6,14 9,14 			"/>
+			<polygon fill="#7D7D7D" points="3,13 3,7 8,7 10,6 2,6 2,14 6,14 6,13 			"/>
+		</g>
+		<rect x="10" y="7" fill="#7D7D7D" width="3" height="9"/>
+		<rect x="7" y="10" fill="#7D7D7D" width="9" height="3"/>
+	</g>
+</g>
+</svg>

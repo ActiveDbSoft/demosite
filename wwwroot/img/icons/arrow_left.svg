@@ -1,0 +1,17 @@
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+ <title>LINKED_OBJECT_MENU_ITEM_arrow_right</title>
+ <desc>Created with Sketch.</desc>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g transform="rotate(-180 6,-218) " fill-rule="evenodd" fill="none" id="Page-1">
+   <rect height="1200" width="240" y="-818" x="-114" id="CONTEXT_MENU_table_row_delete"/>
+   <path fill="#BBBBBB" id="Rectangle-34" d="m-2,-446l7,0l0,-3l5,5l-5,5l0,-3l-7,0l0,-4z"/>
+  </g>
+ </g>
+</svg>

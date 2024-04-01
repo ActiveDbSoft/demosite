@@ -1,0 +1,45 @@
+﻿<div class="row relative">
+    <div class="col-md-12">
+        <div id="voqb"></div>
+        <div class="qb-ui-layout">
+            <div class="qb-ui-layout__top">
+                <div class="qb-ui-layout__left">
+                    <div class="qb-ui-structure-tabs">
+                        <div class="qb-ui-structure-tabs__tab">
+                            <input type="radio" id="vo-tree-tab" name="vo-qb-tabs" checked />
+                            <label for="vo-tree-tab">Database</label>
+                            <div class="qb-ui-structure-tabs__content">
+                                <div id="votreeview"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="qb-ui-layout__right">
+                    <div id="vonavbar"></div>
+                    <div id="vocanvas"></div>
+                    <div id="vostatusbar"></div>
+                    <div id="vogrid"></div>
+                </div>
+            </div>
+            <div class="qb-ui-layout__bottom">
+                <div id="voeditor"></div>
+            </div>
+        </div>
+        <div class="iframe-overlay VirtualObjects">
+            <div class="iframe-overlay-bg"></div>
+            <div class="iframe-overlay-text">
+                <span style="font-size: 24px; opacity: 1;"><strong>Please wait....</strong></span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="ui-dialog ui-widget sql block-flat-transparent virtual-sql">
+            <div class="ui-dialog-titlebar ui-widget-header">
+                <span class="ui-dialog-title-dialog">Query text with virtual objects expanded to their expressions</span>
+            </div>
+            <div class="ui-dialog-content ui-widget-content">
+                <textarea readonly></textarea>
+            </div>
+        </div>
+    </div>
+</div>

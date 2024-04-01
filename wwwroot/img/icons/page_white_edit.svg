@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>CONTEXT_MENU_PROPERTIES_page_white_edit</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="CONTEXT_MENU_table_row_delete" x="-110" y="-252" width="240" height="1200"></rect>
+        <g id="Group-3" fill="#BBBBBB">
+            <path d="M5.5,12 L7.5,11.9999998 L15.2899147,4.28660731 C15.682084,3.89829043 15.6875,3.2709974 15.2892435,2.87274086 L14.7107565,2.29425394 C14.3182165,1.90171394 13.6771693,1.90315683 13.2899147,2.28660731 L5.5,9.99999982 L5.5,12 Z" id="Shape-Copy-5"></path>
+            <path d="M12.5,1.5 L11,0 L0,0 L0,16 L14,16 L14,7.09197998 L12,9.09197998 L12,14.0000004 L2,14.0000004 L2,2 L10.5,2.00000002 L11.25,2.75000001 L12.5,1.5 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

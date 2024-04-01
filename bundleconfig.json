@@ -1,0 +1,62 @@
+[
+  {
+    "outputFileName": "wwwroot/js/bundles/main.min.js",
+    "inputFiles": [
+      "wwwroot/js/jquery-2.2.4.min.js",
+      "wwwroot/js/jquery-ui.min.js",
+      "wwwroot/js/codemirror.min.js",
+      "wwwroot/js/sql.min.js",
+      "wwwroot/js/aqb.client.js",
+      "wwwroot/js/jquery.themeswitcher.min.js",
+      "wwwroot/js/dataView/jqxcore.js",
+      "wwwroot/js/dataView/jqxdata.js",
+      "wwwroot/js/dataView/jqxbuttons.js",
+      "wwwroot/js/dataView/jqxscrollbar.js",
+      "wwwroot/js/dataView/jqxmenu.js",
+      "wwwroot/js/dataView/jqxlistbox.js",
+      "wwwroot/js/dataView/jqxdropdownlist.js",
+      "wwwroot/js/dataView/jqxgrid.js",
+      "wwwroot/js/dataView/jqxgrid.columnsresize.js",
+      "wwwroot/js/dataView/jqxgrid.selection.js",
+      "wwwroot/js/Demo.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/js/bundles/dataview.min.js",
+    "inputFiles": [
+      "wwwroot/js/dataView/jqxgrid.pager.js",
+      "wwwroot/js/dataView/jqxgrid.sort.js",
+      "wwwroot/js/dataView/jsoneditor.min.js",
+      "wwwroot/js/dataView/react.min.js",
+      "wwwroot/js/dataView/react-dom.min.js",
+      "wwwroot/js/dataView/react-data-grid.min.js",
+      "wwwroot/js/dataView/jsgrid.min.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/css/bundles/demo.min.css",
+    "inputFiles": [
+      "wwwroot/css/bootstrap.min.css",
+      "wwwroot/css/jqx.base.css",
+      "wwwroot/css/jsgrid.min.css",
+      "wwwroot/css/jsgrid-theme.min.css",
+      "wwwroot/css/jsoneditor.min.css",
+      "wwwroot/css/codemirror.min.css",
+      "wwwroot/css/default.css",
+      "wwwroot/css/user.css"
+    ],
+    "minify": {
+      "enabled": false
+    }
+  }
+]

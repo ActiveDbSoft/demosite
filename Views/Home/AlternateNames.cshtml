@@ -1,0 +1,49 @@
+﻿<div class="row relative">
+    <div class="col-md-12">
+        <input type="checkbox" class="toggler" checked />
+        <span>Use Alternate Names</span>
+    </div>
+    <div class="col-md-12">
+        <div id="anqb"></div>
+        <div class="qb-ui-layout">
+            <div class="qb-ui-layout__top">
+                <div class="qb-ui-layout__left">
+                    <div class="qb-ui-structure-tabs">
+                        <div class="qb-ui-structure-tabs__tab">
+                            <input type="radio" id="an-tree-tab" name="an-qb-tabs" checked />
+                            <label for="an-tree-tab">Database</label>
+                            <div class="qb-ui-structure-tabs__content">
+                                <div id="antreeview"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="qb-ui-layout__right">
+                    <div id="annavbar"></div>
+                    <div id="ancanvas"></div>
+                    <div id="an-qb-tabs`statusbar"></div>
+                    <div id="angrid"></div>
+                </div>
+            </div>
+            <div class="qb-ui-layout__bottom">
+                <div id="aneditor"></div>
+            </div>
+        </div>
+        <div class="iframe-overlay AlternateNames">
+            <div class="iframe-overlay-bg"></div>
+            <div class="iframe-overlay-text">
+                <span style="font-size: 24px; opacity: 1;"><strong>Please wait....</strong></span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="ui-dialog ui-widget sql block-flat-transparent alternate-sql">
+            <div class="ui-dialog-titlebar ui-widget-header">
+                <span class="ui-dialog-title-dialog">Query text without Alternate names</span>
+            </div>
+            <div class="ui-dialog-content ui-widget-content">
+                <textarea readonly></textarea>
+            </div>
+        </div>
+    </div>
+</div>

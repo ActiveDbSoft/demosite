@@ -1,0 +1,184 @@
+﻿<p class="parent" itemscope itemtype="http://schema.org/BreadcrumbList">
+    <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a id="ld-brcr-product" itemprop="item" typeof="WebPage" href="https://www.activequerybuilder.com/product.html">
+            <span itemprop="name">Active Query Builder</span>
+        </a>
+        <meta itemprop="position" content="1" />
+    </span>&nbsp;&raquo;&nbsp;
+    <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a id="ld-brcr-productnet" itemprop="item" typeof="WebPage" href="https://www.activequerybuilder.com/product_net.html">
+            <span itemprop="name">Active Query Builder for .NET</span>
+        </a>
+        <meta itemprop="position" content="2" />
+    </span>&nbsp;&raquo;&nbsp;
+    <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a id="ld-brcr-productasp" itemprop="item" typeof="WebPage" href="https://www.activequerybuilder.com/product_asp.html">
+            <span itemprop="name">Active Query Builder ASP.NET Edition</span>
+        </a>
+        <meta itemprop="position" content="3" />
+    </span>
+</p>
+
+<div class="prod-details">
+    <h5 class="prod-details-hdr">Product summary</h5>
+    <dl class="dl-horiz">
+        <dt>Latest version:</dt>
+        <dd>
+            <strong id="version-string">...</strong><br />
+            <a id="ld-history" href="https://www.activequerybuilder.com/history.html?sec=3-11">
+                History
+                of changes
+            </a>
+        </dd>
+        <dt>Price from:</dt>
+        <dd>
+            <strong>$399</strong><br />
+            <a id="ld-purchase" href="https://www.activequerybuilder.com/purchase_net.html">
+                All
+                purchase options
+            </a>
+        </dd>
+    </dl>
+    <a id="ld-download" href="https://www.activequerybuilder.com/trequest.html?request=asp" class="btn btn-green">
+        <span class="icon-download"></span>Download free trial
+    </a>
+</div>
+
+<h1>Active Query Builder Live Demo</h1>
+
+<h2>Online Visual SQL Query Builder for ASP.NET and other environments</h2>
+
+<p>
+    <strong>Active Query Builder for .NET - ASP.NET Edition</strong> is a true <strong>online HTML Visual SQL Query Builder</strong> component for WebForms, MVC and .NET Core 2.0.
+    It helps organize a full-featured environment to work with queries and the result query data by providing means for pre- and post- query building user experience.
+</p>
+
+<p>
+    With Active Query Builder users can build complex SQL queries even having a poor understanding of SQL language and relational databases.
+    The users <strong>see the data right from the very beginning</strong>, so they cleary see if the query gives the expected result or not.
+</p>
+
+<ul class="links">
+    <li class="article"><a id="ld-productasp" href="https://www.activequerybuilder.com/product_asp.html">Learn more about Active Query Builder ASP.NET Edition</a></li>
+</ul>
+
+<h2>SQL Query Builder Web API</h2>
+<p>Need to filter results of the given SQL query and provide a convenient data browsing web interface for your web page regardless of the used server-side technology?</p>
+<p>Have a look at <a href="https://webapi.activequerybuilder.com/" id="ld-webapi-index" target="_blank">the Active Query Builder Web API</a>.</p>
+
+<ul class="links">
+    <li class="article"><a id="ld-webapi-demo" href="https://webapi.activequerybuilder.com/Demo" target="_blank">Visual Query Builder for any web programming environment</a></li>
+</ul>
+
+<ul class="nav nav-tabs" id="nav-tabs">
+    <li class="active"><a id="ld-demo-general" href="#general" data-toggle="tab">General <span class="nav-prodname">Demo</span></a></li>
+    <li><a id="ld-demo-altnames" href="#AlternateNames" data-toggle="tab">Alternate Names <span class="nav-prodname">Demo</span></a></li>
+    <li><a id="ld-demo-virtual" href="#VirtualObjects" data-toggle="tab">Virtual Objects <span class="nav-prodname">and Fields Demo</span></a></li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane active" id="general">
+        <p class="expander"><b>To build a query:</b></p>
+        <div style="display: none">
+            <ul>
+                <li>Drag the needed objects from the <b>Database Schema View</b> at the left to the <b>Design Pane</b>. Joins between objects will be created automatically according to the foreign keys defined in the database. Users can create joins by dragging a field from one object to another.</li>
+                <li>Mark the fields for which you want to add columns in your query. To add an expression (concatenate strings, use SQL functions, etc.), type it to the Expression column of the <b>Query Columns Grid</b> (below the Design Pane).</li>
+                <li>Specify sorting, define grouping and aggregate functions for columns, give descriptive names, add conditions to filter data in the Query Columns Grid.</li>
+                <li>Specify query and join properties using the Properties Bar panel which tab is visible to the right of Design Pane.</li>
+            </ul>
+
+            <p>Read <a id="ld-demo-general-ug" href="https://www.activequerybuilder.com/hs15.html">the User's guide</a> to learn how to work with unions and sub-queries.</p>
+        </div>
+
+        <p class="expander"><b>To edit the query text:</b></p>
+        <div style="display: none">
+            SQL text editor is hidden below the sub-query preview data grid.
+            <ul>
+                <li>To edit the full text of the query, switch to the second tab.</li>
+                <li>To edit the text of the currently visible sub-query, switch to the third tab.</li>
+            </ul>
+            Edit or paste the new SQL query text and click the Refresh button at the right-bottom corner of the editor. The modified query will be parsed and changes will be reflected in the visual query builder UI.
+        </div>
+
+        <p><b>To browse the result query data</b> and examine the SQL Filter Builder, switch to the Query Results tab.</p>
+        
+        <partial name="QueryResults"/>
+    </div>
+    <div class="tab-pane" id="AlternateNames">
+        <p>Active Query Builder lets replace unintelligible object and field names with friendly aliases. The user sees friendly names in the Database Schema View, in the Query Builder, and in the SQL query text. He can edit it and apply changes back to the Query Builder! The programmer gets the query with real names to execute it against a database server.</p>
+
+        <p>In this demo we took a snapshot of the database with the unintelligible object and field names and defined alternate names for them, so the database schema and the SQL queries become easily understandable. The user sees the SQL query text with friendly names on the first tab below the Query Builder. The SQL text on the second tab displays the query with real names. It shouldn't normally be visible to the end-user but provided in this demo to illustrate the principle of this feature.</p>
+
+        <ul class="links">
+            <li class="article"><a id="ld-demo-altnames-kb44" href="https://support.activequerybuilder.com/hc/en-us/articles/115001063565-Defining-friendly-names-for-database-objects-and-fields">Read more about the Alternate Names feature</a></li>
+        </ul>
+
+        <partial name="AlternateNames" />
+    </div>
+    <div class="tab-pane" id="VirtualObjects">
+        <p>You can supplement your database schema with virtual objects and add virtual fields to existing objects. Hiding complex SQL expressions inside friendly named entities can simplify the database schema and user queries.</p>
+
+        <p>Virtual entities look like ordinary database objects and fields for end-users. The user sees them in the Database Schema View, in the Query Builder, and in the SQL query text. He can even edit the SQL text with virtual entities and apply changes back to the Query Builder! Virtual entities are substituted for their SQL expressions to execute the query against a database server, but this process goes seamlessly for the end-user.</p>
+
+        <p>
+            In this demo, we've added the "<strong>OrderId_plus_1</strong>" and "<strong>CustomerCompanyName</strong>" <em>virtual fields</em> to the real <strong>Northwind.dbo.Orders</strong> table and <em>two virtual objects</em> called <strong>MyOrders</strong> and <strong>MyBetterOrders</strong>. The user sees the SQL query text with virtual entities on the first tab below the Query Builder. The SQL text on the second tab displays the SQL text with SQL expressions instead of virtual entities. It shouldn't normally be visible to the end-user but provided in this demo to illustrate the principle of this feature.
+        </p>
+
+        <ul class="links">
+            <li class="article"><a id="ld-demo-virtual-kb45" href="https://support.activequerybuilder.com/hc/en-us/articles/115001055269-Adding-virtual-objects-and-calculated-fields-to-database-schema">Read more about the Virtual Objects and Fields feature</a></li>
+        </ul>
+
+        <partial name="VirtualObjects" />
+    </div>
+</div>
+
+
+<ul class="reasons">
+    <li class="r01">Active Query Builder provides the end-user with <a title="ad-hoc visual query builder" href="https://www.activequerybuilder.com/product_ui.html" id="index-6">highly productive environment to work with SQL queries</a>: displaying relevant metadata for the user, visual query designer to build and analyze SQL queries, professional SQL text editor, SQL text formatter and many other options.</li>
+    <li class="r02">Active Query Builder is <a title="sql filter builder" href="https://www.activequerybuilder.com/product_data_assist.html" id="index-7">essential assistant to work with data</a>: entering of query parameter values, previewing of sub-query results, applying filters, sorting and grouping to result datasets, computing of totals.</li>
+    <li class="r03">Active Query Builder has <a title="SQL query parser" href="https://www.activequerybuilder.com/product_api.html" id="index-8">powerful API to work with queries</a>: SQL query parsing and analysis, limit access to tables and fields, or even to specific data records, programmatic correction and creation of new SQL queries.</li>
+    <li class="r04">Active Query Builder offers powerful means to <a href="https://www.activequerybuilder.com/product_environment.html" id="index-9">tune the presentation of database schema</a> to simplify complex database structure for the end-users.</li>
+</ul>
+
+<table cellspacing="0" class="pl">
+    <tbody>
+        <tr>
+            <td colspan="3" class="c"><b>Active Query Builder</b> is available in the following editions:</td>
+        </tr>
+        <tr>
+            <td class="c1">
+                <a class="component" href="https://www.activequerybuilder.com/product_winforms.html" id="index-a"><b>Active Query Builder for WinForms</b></a><br>
+                &nbsp;&nbsp;&nbsp;» Windows Forms .NET 4.0+ component
+            </td>
+            <td class="c2"><a title="Download" class="butDownload" href="https://www.activequerybuilder.com/trequest.html?request=aqb3" id="index-b">Download free trial now</a></td>
+        </tr>
+        <tr>
+            <td class="c1">
+                <a class="component" href="https://www.activequerybuilder.com/product_wpf.html" id="index-aa"><b>Active Query Builder for WPF</b></a><br>
+                &nbsp;&nbsp;&nbsp;» WPF .NET 4.0+ component
+            </td>
+            <td class="c2"><a title="Download" class="butDownload" href="https://www.activequerybuilder.com/trequest.html?request=aqb3" id="index-ba">Download free trial now</a></td>
+        </tr>
+        <tr>
+            <td class="c1">
+                <a class="component" href="https://www.activequerybuilder.com/product_asp.html" id="index-c"><b>Active Query Builder for ASP.NET</b></a><br>
+                &nbsp;&nbsp;&nbsp;» ASP.NET (WebForms, MVC, Core) component
+            </td>
+            <td class="c2"><a title="Download" class="butDownload" href="https://www.activequerybuilder.com/trequest.html?request=asp" id="index-d">Download free trial now</a></td>
+        </tr>
+        <tr>
+            <td class="c1">
+                <a class="component" href="https://www.activequerybuilder.com/product_java.html" id="index-e"><b>Active Query Builder for Java</b></a><br>
+                &nbsp;&nbsp;&nbsp;» Swing-based Java bean component
+            </td>
+            <td class="c2"><a title="Download" class="butDownload" href="https://www.activequerybuilder.com/trequest.html?request=java" id="index-f">Download free trial now</a></td>
+        </tr>
+        <tr>
+            <td class="c1">
+                <a class="component" href="https://www.activequerybuilder.com/product_vcl.html" id="index-g"><b>Active Query Builder for Delphi</b></a><br>
+                &nbsp;&nbsp;&nbsp;» Delphi and C++ Builder component
+            </td>
+            <td class="c2"><a title="Download" class="butDownload" href="https://www.activequerybuilder.com/trequest.html?request=vcl" id="index-h">Download free trial now</a></td>
+        </tr>
+    </tbody>
+</table>

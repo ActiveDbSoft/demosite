@@ -1,0 +1,224 @@
+﻿@using Microsoft.AspNetCore.Http
+@using Microsoft.Extensions.Hosting
+@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment env
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Active Query Builder ASP.NET MVC Online Demo</title>
+    <meta name="KEYWORDS" content="ASP.NET query builder, ASP.NET MVC query builder, Online SQL Query Builder, Visual query builder for web, Active Query Builder Live demo">
+    <meta name="DESCRIPTION" content="Active Query Builder - Visual Query Builder for ASP.NET MVC, Razor and ASPX view engines, Bootstrap compatible">
+    <meta name="ROBOTS" content="INDEX,FOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="ActiveDBsoft. Active Query Builder component suite." />
+    <link rel="start" href="" title="Active Query Builder ASP.NET MVC Live Demo" />
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="/css/bundles/demo.min.css" type="text/css" />
+
+    <link href="http://aspquerybuilder.net/" rel="canonical" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content=@("@activedbsoft")>
+    <meta name="twitter:title" content="Active Query Builder ASP.NET MVC Online Demo">
+    <meta name="twitter:description" content="Visual SQL Query Builder, SQL Parser and Analyzer component for ASP.NET MVC, WinForms, WPF, Java and  Delphi/C++Builder to provide the highly productive environment to work with SQL queries and data">
+    <meta name="twitter:image" content="https://www.activequerybuilder.com/i/aqb-logo.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Active Query Builder ASP.NET MVC Online Demo" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://aspquerybuilder.net/" />
+    <meta property="og:sameAs" content="http://facebook.com/ActiveQueryBuilder" />
+    <meta property="og:sameAs" content="http://twitter.com/activedbsoft" />
+    <meta property="og:sameAs" content="https://plus.google.com/b/114166431784415447393/+Activequerybuilder/" />
+    <meta property="og:sameAs" content="http://linkedin.com/company/active-query-builder" />
+    <meta property="og:image" content="https://www.activequerybuilder.com/i/aqb-logo.png" />
+    <meta property="og:description" content="Active Query Builder - the visual SQL query designer, SQL parser and editor component for ASP.NET MVC, WinForms, WPF, Java, Delphi/C++Builder and ActiveX." />
+    <meta property="fb:app_id" content="1453137454990726" />
+
+    @if (!env.IsDevelopment())
+    {
+        <!-- Start of activequerybuilder Zendesk Widget script -->
+        <script>/*<![CDATA[*/window.zE || (function (e, t, s) { var n = window.zE = window.zEmbed = function () { n._.push(arguments) }, a = n.s = e.createElement(t), r = e.getElementsByTagName(t)[0]; n.set = function (e) { n.set._.push(e) }, n._ = [], n.set._ = [], a.async = true, a.setAttribute("charset", "utf-8"), a.src = "https://static.zdassets.com/ekr/asset_composer.js?key=" + s, n.t = +new Date, a.type = "text/javascript", r.parentNode.insertBefore(a, r) })(document, "script", "eadce462-bb85-4f53-a066-b3ddfeab7547");/*]]>*/</script>
+        <!-- End of activequerybuilder Zendesk Widget script -->
+    }
+</head>
+<body id="coll1">
+    @if (!env.IsDevelopment())
+    {
+        <!-- Google Tag Manager -->
+        <noscript>
+            <iframe src="//www.googletagmanager.com/ns.html?id=GTM-T4NRS4" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+        </noscript>
+        <script>
+            setTimeout(function () {
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                    var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-T4NRS4');
+
+                //End Google Tag Manager -->
+                //Facebook -->
+
+                window.fbAsyncInit = function () {
+                    FB.init({
+                        appId: '1453137454990726',
+                        xfbml: true,
+                        version: 'v2.4'
+                    });
+                    FB.Event.subscribe('edge.create',
+                        function (targetUrl) {
+                            ga('send', 'social', 'facebook', 'like', targetUrl);
+                        });
+                };
+
+                (function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) {
+                        return;
+                    }
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "//connect.facebook.net/en_US/sdk.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+            },
+                3000);
+        </script>
+    }
+    <div class="box-wrap">
+        <div class="box-header">
+            <div class="social">
+                <table border="0">
+                    <tr>
+                        <td style="padding: 0">
+                            <div class="g-plusone" data-size="medium" data-href="https://www.activequerybuilder.com/"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; padding: 0">
+                            <div class="fb-like" data-href="https://www.activequerybuilder.com/" data-send="false" data-layout="button_count" data-width="120" data-show-faces="true"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="logo">
+                <a id="head-index" href="https://www.activequerybuilder.com/index.html" title="Active Query Builder Home Page">
+                    <img src="i/logo.png" width="162" height="77" alt="Active Query Builder" />
+                </a>
+                <div class="gsearch">
+                    <gcse:search></gcse:search>
+                </div>
+            </div>
+            <!-- Menu -->
+            <div id="nav">
+                <ul>
+                    <li>
+                        <a id="head-menu-index" href="https://www.activequerybuilder.com/index.html" class="home" title="Active Query Builder">Overview</a>
+                    </li>
+                    <li>
+                        <a id="head-menu-product" href="https://www.activequerybuilder.com/product.html" title="About Active Query Builder">Features</a>
+                    </li>
+                    <li>
+                        <a id="head-menu-download" href="https://www.activequerybuilder.com/download.html" title="Download Visual Query Builder">Downloads</a>
+                    </li>
+                    <li id="current">
+                        <a id="head-menu-livedemo" href="http://aspquerybuilder.net/"
+                           title="Active Query Builder ASP.NET MVC Online Demo">Online Demo</a>
+                    </li>
+                    <li>
+                        <a id="head-menu-purchase" href="https://www.activequerybuilder.com/purchase.html" title="Buy Active Query Builder ">Purchase</a>
+                    </li>
+                    <li>
+                        <a id="head-menu-docs" href="https://activequerybuilder.com/documentation/webframe.html#ActiveDatabaseSoftware.ActiveQueryBuilder.Web.WebForms~ActiveDatabaseSoftware.ActiveQueryBuilder.Web.WebForms_namespace.html"
+                           title="Active Query Builder Documentaton">Documentation</a>
+                    </li>
+                    <li>
+                        <a id="head-menu-support" href="https://support.activequerybuilder.com/hc/"
+                           title="Active Database Software Support Team">Support</a>
+                    </li>
+                    <li class="service">
+                        <a id="head-menu-custarea" href="https://www.activequerybuilder.com/member/index.php" class="service"
+                           title="Active Query Builder Customer's area">Customer's area</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- close Menu -->
+        </div>
+        <div class="cb-top">
+        </div>
+        <div class="columns-float">
+            <div class="column-one">
+                <div class="column-one-content">
+                    <!-- Center Collumn -->
+
+                    @RenderBody()
+
+                </div>
+                <!-- FOOTER -->
+                <div class="simple-footer">
+                    <div class="scroll"><a id="foot-scroll-top" href="javascript:scrollTo(0,0);">scroll to top</a></div>
+                    &copy; Copyright 2005-2024 ActiveDBSoft. All rights reserved.<br />
+                    <a id="foot-sitemap" href="https://www.activequerybuilder.com/sitemap.html">Site Map</a>
+                    <a id="foot-terms" href="https://www.activequerybuilder.com/terms.html">Terms of Use</a>
+                    <a id="foot-privacy" href="https://www.activequerybuilder.com/privacy.html">Privacy Policy</a>
+
+                    <!-- close Center Collumn -->
+                </div>
+            </div>
+        </div>
+        <!-- close columns-float -->
+        <div class="cb">&nbsp;</div>
+    </div>
+    <!-- close box-wrap -->
+    <!-- Google Search -->
+    @if (!env.IsDevelopment())
+    {
+        <script>
+            setTimeout(function () {
+                (function () {
+                    var cx = '004408062715092941462:lvgcta52pi4';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                        '//cse.google.com/cse.js?cx=' +
+                        cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                })();
+
+                //Google Plus
+                (function () {
+                    var po = document.createElement('script');
+                    po.type = 'text/javascript';
+                    po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(po, s);
+                })();
+            },
+                3000);
+        </script>
+    }
+    else
+    {
+        
+    }
+
+    <script src="js/bundles/main.min.js" defer></script>
+    <script src="js/bundles/dataview.min.js" defer></script>
+
+    @RenderSection("styles", false)
+    @RenderSection("scripts", false)
+</body>
+</html>
